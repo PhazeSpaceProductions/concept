@@ -1,4 +1,4 @@
-# Creating working app prototypes for startup founders
+# Quick and dirty app prototyping for startup founders
 
 ## About you:
 
@@ -73,6 +73,7 @@
 * Installing Chrome
 * Installing Notepad++
 * Installing Atom
+* Installing node.js (used for http-server - second week)
 * Creating a gmail Accounts
 * Creating a github account
 
@@ -102,34 +103,61 @@
 
 * Basic concepts
  * 5 Minutes tops
- * UX, mobile & responsive design
+ * HTML, CSS, UX, mobile & responsive design
   * exercise - load web page in Firefox or Chrome using
  * servers, clients, under the hood
  * backups, source code management & git
+ * app stores - constructed differently, point is to not bother (refer startup above)
 
 * Exercise 1: create a new repository in github
- * Allow 10 minutes to help everyone
+ * Allow 15 minutes, to help everyone
+ * Necessary yak shaving
  * Requires internet access
  * Add a Readme
  * Pro: backup, work anywhere
  * Con: world readable
+ * Deploying to gh-pages a simple 'hello world'
+ * Debugging console
 
  * Exercise 2: create a simple four pages of text hello world app
   * Allow 20 minutes
+  * Create a new repository
   * Copy the skeleton - USB stick or github
   * Demonstrates responsive mobile
   * Demonstrates placing buttons and handling user touch on buttons
   * Demonstrates placing text
+  * Deploying to gh-pages
   * Test on a mobile device
+
+* Aside
+ * alternative ways to deploy:
+  * ISP hosting
+  * CPANEL hosting
+  * VPS hosting - but who here knows about system administration? not advisable unless you already familiar
+ * not 'proper' program structure for any complex app
+  * code should be modularised
+  * sub directories for js and css files, etc, assets directory
 
 * Exercise 3: create a simple fuel usage calculator
  * Allow 20 minutes
+ * Create a new repository
  * Copy the skeleton - USB stick or github
  * Demonstrates responsive mobile
  * Demonstrates placing buttons and handling user touch on buttons
  * Demonstrates placing text
  * Demonstrates performing computations
  * Test on a mobile device
+
+* Aside
+ * Caveats - performance is not necessarily optimal because with libraries we are not
+  * using third party libraries in a modular fashion (not using `require()`)
+  * relying on third party CDN instead of locally hosting (has pros/cons, including first point)
+  * we are not running web app post processing, which compresses the javascript and other things
+
+* Dealing with error messages
+
+* Exercise 4: integration with weebly or other site builders
+
 
 Break
 
