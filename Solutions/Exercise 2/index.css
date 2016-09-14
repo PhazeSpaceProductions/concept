@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+p {
+  color: blue;
+}
+
+.main {
+  position:absolute;
+  width:100%;          /* This is relative size of parent container. */
+  height:100%;         /* This is relative size of parent container. */
+}
+
+.my-page {
+  position:absolute;   /* Now we set the inside distances from parent ... */
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+  background-color: yellow;
+  margin: 10px auto;        /* box spacing */
+  padding: 8px;             /* internal spacing */
+  border-radius: 12px;
+  border-style:dotted;
+  border-width: 2px;
+  border-color: blue;
+}
+
+/* Demonstrates positioning */
+.my-button-container {
+  position:absolute;
+  /* Fill remaining space, subject to padding */
+  left:1em;
+  right:1em;
+  bottom:1em;
+}
+
+.my-button {
+  position: absolute;
+  bottom: 0px;
+  width:100%;         /* This is relative size of parent container. */
+}
+
+.my-img-container {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.my-img {
+  max-width: 100%;
+  height: auto !important;
+  
+}
