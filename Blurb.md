@@ -50,11 +50,11 @@
 # Course Architecture
 
 * Three sessions x 2 hours
-* Session 1 - introduction, concepts, setup environment, git, basic web "hello world" skeleton for your use, mobile device development, testing
+* Session 1 - introduction, concepts, setup environment, basic web "hello world" skeleton for your use, mobile device development, testing
  * TODO: look into splitting the first stuff this over the sessions, so students can achieve something tangible the first week
 * Session 2 - Using google forms; Creating a business calculator app; Recording data (introduction to firebase);
 * Session 3 - Using D3 for fancy user interfaces ; Using leaflet for maps
- * Go through all the other possibilities not covered
+ * Go through all the other possibilities not covered; git, version control
 
 # Prerequisites
 
@@ -109,7 +109,7 @@
  * backups, source code management & git
  * app stores - constructed differently, point is to not bother (refer startup above)
 
-* Exercise 1: create a new repository in github
+* Exercise 1: create a new repository in github??
  * Allow 15 minutes, to help everyone
  * Necessary yak shaving
  * Requires internet access
@@ -118,6 +118,7 @@
  * Con: world readable
  * Deploying to gh-pages a simple 'hello world'
  * Debugging console
+ * Autocomplete of CSS in atom
 
  * Exercise 2: create a simple four pages of text hello world app
   * Allow 20 minutes
