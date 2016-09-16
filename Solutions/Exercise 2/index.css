@@ -47,12 +47,21 @@ p {
 }
 
 .my-img-container {
-  max-height: 200px;
+  max-height: 300px;
   overflow: hidden;
+  /* For debugging, you can turn on the border to get the hang of things. */
+  /* Also, use the browser tools */
+  border-style:dotted;
+  border-width: 1px;
 }
 
 .my-img {
   max-width: 100%;
   height: auto !important;
-  
+}
+
+@media (orientation:landscape) and (max-height:24em) {
+  html, body { font-size: smaller; }
+  .my-img-container {  max-height: 200px; }
+  .my-img { width: 40%; height: auto; }
 }

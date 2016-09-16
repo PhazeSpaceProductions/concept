@@ -1,3 +1,6 @@
+/* THe power of CSS is you can change it once in this file and everything automatically updates. */
+
+/* Element CSS is applied to all elements of that type */
 html, body {
   width: 100%;
   height: 100%;
@@ -5,12 +8,81 @@ html, body {
   padding: 0;
   overflow: hidden;
 }
+h1, h2, h3, p {
+  color: red;
+}
+
+/* Later CSS definitions replaces earlier css definitions */
+p {
+  color: green;
+}
+
+.emph {
+  font-weight: bold;
+  background-color: yellow;
+  color: red;
+}
+
+a {
+  background-color: white;
+  color: blue;
+}
+
+/* Class CSS applies to everthing that has this .class as a class
+   after the element level CSS settings */
+.my-section {
+  /* This is a gap from the top,right,bottom,left to the content */
+  padding: 5px 50px 5px 20px;
+}
 
 .my-paragraph {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 0 0 24px;
   color: orange;
+
+  /* Expressed relative to the HTML element the item is conatined within */
+  width: 50%;
+
   font-style: italic;
+  font-size: smaller;
+
+  /* Specific font sizes are nowadays best expressed in "ems" where 1em could roughly
+     be thought of as height of a line of one high line of text in the
+     default standard font size for a paragprah.
+
+     See https://css-tricks.com/why-ems for example of further info.
+
+     But often you can just get away with 'smaller'
+
+     font-size: 0.8em;
+  */
 }
 
+/* Item CSS applies to everthing that has this item as an id
+   after the element and class level CSS settings */
 #my-item {
+  /* We set this back up to 80% otherwise you get 50% of 50% due ti 'inheritance' */
+  width: 80%;
   background-color: blue;
+  border-style: none;
 }
+
+/*
+  Mobile requires some work.
+  The CSS above will default to standard font sizes.
+  We need to shrink them for mobile screens.
+ */
+
+ @media (max-width:36em) {
+   html, body { font-size: smaller; }
+ }
+
+/*
+  On a small mobile phone in landscape, our app gets chopped even further.
+  So we need to shrink all our fonts
+*/
+ @media (orientation:landscape) and (max-width:48em) {
+   html, body { font-size: smaller; }
+ }
