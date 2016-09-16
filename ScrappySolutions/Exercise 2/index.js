@@ -23,7 +23,7 @@ limitations under the License.
 
 function page1ClickHandler(e) {
   // This is a debug message, used to help diagnose problems in the code
-  console.log("Inside function page1ClickHandler");
+  console.log('Inside function page1ClickHandler');
   // Hide all pages again
   $('.my-page').hide();
   // Show the next page
@@ -41,7 +41,7 @@ function page2ClickHandler(e) {
 
 function page3ClickHandler(e) {
   // This is a debug message, used to help diagnose problems in the code
-  console.log("Inside function page3ClickHandler");
+  console.log('Inside function page3ClickHandler');
   // Hide all pages again
   $('.my-page').hide();
   // Show the last page
@@ -50,7 +50,7 @@ function page3ClickHandler(e) {
 
 function backButtonHandler(event) {
   // This is a debug message, used to help diagnose problems in the code
-  console.log("Inside function backButtonHandler");
+  console.log('Inside function backButtonHandler');
 
   // Make sure the page click handler doesnt also get called
   event.stopPropagation();
@@ -81,7 +81,7 @@ function backButtonHandler(event) {
 
 // This is the first function run after the page HTML file finished loading
 $( document ).ready(function() {
-  console.log("Scrappy Solution #2");
+  console.log('Scrappy Solution #2');
 
   // Remove the default hidden flag from all things with class 'my-page'
   $('.my-page').removeAttr('hidden');

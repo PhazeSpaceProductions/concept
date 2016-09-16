@@ -77,6 +77,7 @@ p {
   height: auto !important;
 }
 
+/* @Media sections let you have finer control over what happens on mobile devices */
 @media (orientation:landscape) and (max-height:24em) {
   html, body { font-size: smaller; }
   .my-img-container {  max-height: 200px; }

@@ -15,5 +15,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 $( document ).ready(function() {
-  console.log("Scrappy Solution #1");
+  console.log('Scrappy Solution #1');
 });
