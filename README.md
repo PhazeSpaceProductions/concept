@@ -6,7 +6,7 @@
 
 ## Course Preparation
 
-* You need a text editor. On Windows, https://atom.io/ will get the job done. If you are running Linux you probably already have that sorted. On a Mac, you might be able to each me... 
+* You need a text editor. On Windows, https://atom.io/ will get the job done. If you are running Linux you probably already have that sorted. On a Mac, you might be able to each me...
 * You need Internet access to run the demos.
 * You need Firefox or Chrome on your laptop
 
@@ -48,3 +48,14 @@ not succeed, as long as you try!
   for novices. So they get the job done.
   But breaking is OK provided the main function works. This is an MVP, and the idea is to make something functional
   to learn about your customers.
+
+## Legal
+
+There is a skeleton, this is public domain for you to use as a starting point
+in your own experiments.
+
+The Solutions we are working through, are released under something called
+the Apache 2.0 license, which means if you wanted to use those as a starting
+point you would be required to retain the copyright acknowlegdement to me.
+
+This README and supporting material is released under Creative Commons Attribution Sharealike 4.0.
