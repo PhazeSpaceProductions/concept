@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+
+Exercise: getting the hang of the following
+
+* elements such as sections, as pages
+* simple javascript page control
+* a button for navigation
+
+-->
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<title>Just Enough Scrappy Apps - Simple Paging Example</title>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+
+<div class="main">
+
+<section class="my-page" id="page-1" hidden>
+<p>
+  Welcome to the demonstration app.
+  <br/>
+  Click anywhere to continue.
+</p>
+</section>
+<section class="my-page" id="page-2" hidden>
+  <p>
+    This is page #2.
+    <br/>
+    <div class="my-img-container">
+    <img class="my-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Adelaide_North_Tce_1839.jpg/303px-Adelaide_North_Tce_1839.jpg"/>
+    </div>
+    <br/>
+    According to <A href="https://commons.wikimedia.org/wiki/File:Adelaide_North_Tce_1839.jpg" target="_newTab">wikipedia</a>, this painting of Adelaide from 1839 is in a the public domain
+    <br/>
+    Click or tap anywhere to continue.
+  </p>
+  <div class="my-button-container">
+  <button class="button-secondary pure-button my-button">Go back</button>
+  </div>
+</section>
+<section class="my-page" id="page-3" hidden>
+  <p>
+    This is page #3.
+    <br/>
+    This is a lot of work for something you could build with Google Slides.
+    <br/>
+    Click or tap anywhere to continue.
+  </p>
+  <div class="my-button-container">
+  <button class="button-secondary pure-button my-button">Go back</button>
+  </div>
+</section>
+<section class="my-page" id="page-4" hidden>
+  <p>
+    This is page #4.
+    <br/>
+    But it creates a foundation you can build on.
+    <br/>
+  </p>
+  <div class="my-button-container">
+  <button class="button-secondary pure-button my-button">Go back</button>
+  </div>
+</section>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+<!--
+Copyright (c) 2016 Phaze Space Productions Pty. Ltd.
+Copyright (c) 2016 Andrew McDonnell
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->

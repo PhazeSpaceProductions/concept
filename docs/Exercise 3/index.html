@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+
+Exercise: getting the hang of the following
+
+* Creating a typical mobile looking buttons page
+
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<title>Skeleton Example</title>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+<!-- Font Awesome by Dave Gandy - http://fontawesome.io -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<body>
+
+<!-- Remove these grid divisions to see how ugly things get -->
+<div class="pure-g">
+
+<div class="pure-u-1">
+  <section  id="section-top">
+    <h1>Welcome to the best game ever!</h1>
+    <button class="pure-button pure-button-primary button-call-to-action" id="btn-play">Play!</button>
+  </section>
+</div>
+
+  <section class="pure-u-1" id="section-game" hidden>
+    <h1>Choose!</h1>
+    <button class="pure-button pure-button-primary btn-team">Adelaide</button>
+    <button class="pure-button pure-button-primary btn-team">Sydney</button>
+    <button class="pure-button pure-button-primary btn-team">Geelong</button>
+    <button class="pure-button pure-button-primary btn-team">Hawthorn</button>
+  </section>
+
+  <!-- Fancy font examples at http://fontawesome.io/examples/ -->
+  <section class="pure-u-1" id="section-camera" hidden>
+    <button class="pure-button pure-button-primary" id="btn-camera"><i class="fa fa-camera-retro"></i> Picture me</button>
+  </section>
+
+</div>
+
+</head>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<!-- WebcamJS from https://github.com/jhuckaby/webcamjs -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.15/webcam.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+<!--
+Copyright (c) 2016 Phaze Space Productions Pty. Ltd.
+Copyright (c) 2016 Andrew McDonnell
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->

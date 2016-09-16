@@ -1,0 +1,50 @@
+/*
+Copyright (c) 2016 Phaze Space Productions Pty. Ltd.
+Copyright (c) 2016 Andrew McDonnell
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pure-button
+{
+  /* Override the pure css to make the corners more round */
+  border-radius: 4px;
+  /* Override the pure css to make button expand to width */
+  width: 100%;
+  /* Force a space ! */
+  margin: 2px 0 2px 0;
+}
+
+/* Make a custom button coloured */
+.button-call-to-action
+{
+  color: white;
+  background: green;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* @Media sections let you have finer control over what happens on mobile devices */
+@media (orientation:portrait) and (max-width:24em) {
+  h1, h2, h3, p { font-size: smaller; }
+}
+
+@media (orientation:landscape) and (max-height:24em) {
+  .pure-button { font-size: smaller; }
+}

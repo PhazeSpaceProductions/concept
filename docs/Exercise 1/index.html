@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+
+Exercise: getting the hang of the following
+
+* using the text editor
+* shows use of off-page links, CSS, special characters
+* using CSS to modify colours, font size headings, text, etc.
+* deploying somewhere
+* testing on mobile devices, using firefox or chrome responsive mode
+
+* Class instruction:
+ * Describe use of HTML as structure and content and CSS as how it is displayed
+ * Change the background colour
+ * Make the background a picture
+ * Change the  border, colour, font, etc. of various elements
+
+-->
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<title>Just Enough Scrappy Apps - Simple HTML / CSS Example</title>
+
+<!-- Note we skip the purecss CSS here, we dont use it so dont waste time loading it -->
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+<h1>Hello, world</h1>
+
+<section class="my-section">
+<p>
+  This is a simple web application.
+  <br/>
+  In fact it is really just a web page, but with layout constraints that
+  force it to display like a phone app would.
+  If this is all you really need,  you should just use <a href="https://www.weebly.com/au" target="_newTab">Weebly</a>
+  or <a href="https://apps.google.com/products/sites/" target="_newTab">Google Sites</a> or some other tool.
+  <br/>
+  What this does provide though, is a base for building an MVP app from.
+</p>
+<p>
+  You can copy the files to any web host and it should work.
+</p>
+<p class="my-paragraph">
+  This is an example of css formatting - from class 'my-paragraph' in 'index.css'
+</p>
+<div class="my-paragraph">
+  The same CSS applies to all elements with the same class. This is a div not a p.
+</p>
+<div class="my-paragraph" id="my-item" >
+  This is an example of css formatting - from id 'my-item'
+  Note the font is smaller because &lt;div&gt; has a different size from &lt;P&gt;
+  <br/>To use special characters like <span class="emph">&lt;</span>, you need entities. They start with <span class="emph">&amp;</span>.
+  A good starting point is the <a href="https://dev.w3.org/html5/html-author/charref" target="_newTab">HTML5 Charref</a>
+</div>
+</section>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+<!--
+Copyright (c) 2016 Phaze Space Productions Pty. Ltd.
+Copyright (c) 2016 Andrew McDonnell
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
