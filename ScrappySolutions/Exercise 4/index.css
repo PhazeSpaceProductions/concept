@@ -10,3 +10,14 @@ img.my-img {
   height: 64px;
   width: auto;
 }
+
+/* @Media sections let you have finer control over what happens on mobile devices */
+@media (orientation:portrait) and (max-width:24em) {
+  body, h1 { font-size: smaller; }
+  img.my-img { height: 32px; }
+}
+
+@media (orientation:landscape) and (max-height:24em) {
+  body, h1 { font-size: smaller; }
+  img.my-img { height: 32px; }
+}
