@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "Commodore 64",
+    "released" : "1982",
+    "info" : "https://en.wikipedia.org/wiki/Commodore_64",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Commodore-64-Computer.png/320px-Commodore-64-Computer.png",
+    "image-attribution" : "public domain"
+  },
+  {
+    "name" : "Apple II",
+    "released" : "1977",
+    "info" : "https://en.wikipedia.org/wiki/Apple_II_series",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Apple_II_tranparent_800.png/261px-Apple_II_tranparent_800.png",
+    "image-attribution" : "Photograph by Rama, Wikimedia Commons, Cc-by-sa-2.0-fr"
+  },
+  {
+    "name" : "Atari 2600",
+    "released" : "1977",
+    "info" : "https://en.wikipedia.org/wiki/Atari_2600",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atari-2600-Wood-4Sw-Set.jpg/320px-Atari-2600-Wood-4Sw-Set.jpg",
+    "image-attribution" : "public domain"
+  },
+  {
+    "name" : "Dick Smith Wizzard",
+    "released" : "1981",
+    "info" : "https://en.wikipedia.org/wiki/VTech_CreatiVision",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/CreatiVision-Console-Set.jpg/320px-CreatiVision-Console-Set.jpg",
+    "image-attribution" : "User:Evan-Amos / Wikimedia Commons / CC-BY-SA-3.0"
+  }
+]
